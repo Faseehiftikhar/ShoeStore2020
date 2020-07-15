@@ -19,7 +19,7 @@ function MainShoes() {
                         
                             to={`/shoes/${keyName}`}>
                                 <h4 className="ShoesName">{shoe.name}</h4>
-                                <img src={shoe.img} height={'400px'} width={'400px'} alt="shoe" />
+                                <img src={shoe.img} height={'400px'} width={'400px'} maxWidth={100} alt="shoe" />
                     </Link>)
                 })}
             </div>

@@ -14,7 +14,8 @@ function ShoesDetails() {
             <h1 className="ShoesDetailsHeading">Welcomme to Sasta's Items</h1>
             <div>
                 <h2 className="SHOEnAME">{shoe.name}</h2>
-                <img src={shoe.img} height={500} alt="shoe" />
+                <img src={shoe.img} height={500} maxWidth={100} alt="shoe" />
+               
             </div>
         </div>
     );
